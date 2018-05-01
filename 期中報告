@@ -1,0 +1,73 @@
+import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
+import numpy as np
+f = open('C:\\Users\\user\\Desktop\\k1.txt', 'r')
+data = f.read()
+k1=data
+print('k1',k1)
+q = open('C:\\Users\\user\\Desktop\\k2.txt', 'r')
+k2 = q.read()
+K1 = mpimg.imread('C:\\Users\\user\\Desktop\\key1.png',0)
+plt.imshow(K1)
+K2 = mpimg.imread('C:\\Users\\user\\Desktop\\key2.png')
+I = mpimg.imread('C:\\Users\\user\\Desktop\\I.png')
+grad = np.zeros([400,300])
+qqq = np.zeros((3,), np.int32)
+E = mpimg.imread('C:\\Users\\user\\Desktop\\E.png')
+w1 = np.random.random([400,300])
+w2 = np.random.random([400,300])
+w3 = np.random.random([400,300])
+w2 = np.random.random([400,300])
+w = np.zeros([400,300])
+epoch = 1
+wepoch=epoch # w epoch =wepoch
+def w(i, j): # linear classification function
+    ww1=w1[i,j]
+    ww2=w2[i,j]
+    ww3=w3[i,j]
+    return [ww1, ww2 ,ww3]
+w(1,2)
+wepochk2 = np.zeros([0,0,0])
+wepochk1 = np.zeros([0,0,0])
+def ??(i,j):
+    a11=[0,0,0]
+    K1K=K1[i,j]
+    K2K=K2[i,j]
+    IK=I[i,j]
+    return [[K1K], [K2K], [IK]] #轉置
+#
+x(0,0)
+
+def a(i, j):
+    return np.multiply(w(i,j), x(i,j))
+
+a(0,0)
+
+def e(i, j):
+    return E[i,j]-a(i,j)
+e(0,0)
+def  wepochk(k,i,j): ###目前卡這
+    return  w(i, j)
+w(0,0)
+wepochk(1,0,0)
+wepochk(2,0,0)
+while epoch <= 100 and abs(wepochk2 - wepochk1) >0.00000001:
+    for i in range(0,400,1):
+        for j in range(0,300,1):
+            a= w(i.j)
+            x(i,j)
+            a(i,j)
+            e(i,j)
+            wepochk1 = w(i,j)
+            wepochk2 =
+abs(-5)
+EE=1
+
+img.shape
+while(E==1||(E<1000&&abs()))
+    www=np.array()
+
+    n,m = K1.shape
+    for i in range (n):
+        for j in range (m):
+            w  = ....
